@@ -7,12 +7,7 @@
 // @include       /atg/
 // @author        Obed Murillo
 // @require http://code.jquery.com/jquery-latest.js
-// @grant GM_setValue
-// @grant GM_getValue
-// @grant GM_setClipboard
-// @grant unsafeWindow
-// @grant window.close
-// @grant window.focus
+// @grant none
 // @updateUrl   https://raw.githubusercontent.com/obedmhg/blogstuff/master/atgstuff/showProjectId.js
 // @downloadUrl https://raw.githubusercontent.com/obedmhg/blogstuff/master/atgstuff/showProjectId.js
 // ==/UserScript==
