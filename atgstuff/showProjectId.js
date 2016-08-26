@@ -1,5 +1,7 @@
 // ==UserScript==
 // @name          Append ProjectId BCC
+// @homepageURL  https://github.com/obedmhg/blogstuff
+// @supportURL   https://github.com/obedmhg/blogstuff/issues
 // @description   It will appen the project Id to the project name.
 // @version       0.0.1
 // @include       /atg/
