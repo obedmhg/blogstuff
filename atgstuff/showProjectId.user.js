@@ -15,7 +15,7 @@
 (function ($, undefined) {
   $(function () {
       $('a').each(function() {
-          if (this.href.indexOf("project=") >= 0) {
+          if (this.href.indexOf("project=") >= 0 && this.text.indexOf("Author") < 0 && this.text.indexOf("Verify ") < 0 && this.text.indexOf("SEOURLGeneration") < 0 && this.text.indexOf("Accept ") < 0) {
               var afterProject = this.href.split("project=");
               var projectId = afterProject[1].split("&")[0];
               $(this).after( "<div style='border: 1px solid white; background-color: #00AC10; color: white; width: 65px; height: 12px;  text-align: center; vertical-align: middle;line-height: 12px; '>"+projectId+" </div>" );
