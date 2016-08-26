@@ -6,6 +6,7 @@
 // @author        Obed Murillo
 // @require http://code.jquery.com/jquery-latest.js
 // @grant         none
+// @downloadUrl https://raw.githubusercontent.com/obedmhg/blogstuff/master/atgstuff/showProjectId.js
 // ==/UserScript==
 
 (function ($, undefined) {
